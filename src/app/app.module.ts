@@ -10,14 +10,16 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatMenuModule} from '@angular/material/menu';
 import { MovieComponent } from './movie/movie.component';
-
+import {MatIconModule} from '@angular/material/icon';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    MovieComponent
+    MovieComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { MovieComponent } from './movie/movie.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatFormFieldModule,
-    MatMenuModule
+    MatMenuModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
