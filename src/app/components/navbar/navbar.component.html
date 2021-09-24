@@ -1,22 +1,35 @@
-<p>aaaaa</p>
+<mat-toolbar>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
 
-<!-- <mat-toolbar>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>MOVIES</button>
-    <button mat-menu-item>TVSHOWS</button>
-    <button mat-menu-item>SERIES</button>
-  </mat-menu>
+  <span class="example-spacer"></span>
+  <button
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+  >
+    MOVIES
+  </button>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+  >
+    SERIES
+  </button>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with share icon"
+  >
+    TOP POPULAR
+  </button>
   <img [routerLink]="['/']" id="logo" src="assets/images/logo.jpg" alt="Logo" />
-  <span id="btn_group" hidden>
-    <button id="new_movie1" class="nav_btn" mat-button >
-        NEW
-    </button>
-    <button id="new_movie2" class="nav_btn" mat-button >
-        POPULAR
-    </button>
-    <button id="new_movie3" class="nav_btn" mat-button >
-        WATCHLIST
-    </button>
-</span>
 
-</mat-toolbar> -->
+  <app-search></app-search>
+</mat-toolbar>

@@ -1,10 +1,15 @@
-@import '../../../variables';
+// @import '../../../variables';
 
-
+mat-toolbar {
+  background-color: #002f39;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0;
+}
 #logo {
-    max-height: 50px;
-    grid-area: logo;
-    border-radius: 1px;
-    padding: 2px;
-    justify-self: center;
+  max-height: 50px;
+  grid-area: logo;
+  border-radius: 1px;
+  padding: 2px;
+  justify-self: center;
 }
