@@ -1,21 +1,24 @@
 <mat-toolbar>
-  <button
+  <button id="hamburger" mat-icon-button hidden >    <mat-icon>menu</mat-icon>
+</button>
+<img [routerLink]="['/']" id="logo" src="assets/images/logo.jpg" alt="Logo" />
+  <!-- <button
     mat-icon-button
     class="example-icon"
     aria-label="Example icon-button with menu icon"
   >
     <mat-icon>menu</mat-icon>
-  </button>
+  </button> -->
 
   <span class="example-spacer"></span>
-  <button
+  <button id="account_btn"
     mat-icon-button
     class="example-icon favorite-icon"
     aria-label="Example icon-button with heart icon"
   >
     MOVIES
   </button>
-  <button
+  <button id="menu_btn"
     mat-icon-button
     class="example-icon"
     aria-label="Example icon-button with share icon"
@@ -29,7 +32,7 @@
   >
     TOP POPULAR
   </button>
-  <img [routerLink]="['/']" id="logo" src="assets/images/logo.jpg" alt="Logo" />
+ 
 
   <app-search></app-search>
 </mat-toolbar>
