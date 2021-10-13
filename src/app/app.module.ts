@@ -12,7 +12,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MovieComponent } from './components/movie/movie.component';
 import { MatIconModule } from '@angular/material/icon';
 import { SearchComponent } from './components/search/search.component';
-
+import {MatSidenavModule} from '@angular/material/sidenav';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +30,7 @@ import { SearchComponent } from './components/search/search.component';
     MatFormFieldModule,
     MatMenuModule,
     MatIconModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent],
