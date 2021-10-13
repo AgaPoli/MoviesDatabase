@@ -1,4 +1,4 @@
-export interface MovieModel {
+export interface IMovieInformation {
     Title:      string;
     Year:       string;
     Rated:      string;
